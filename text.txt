@@ -1,0 +1,103 @@
+---------------- Tasks ----------------
+
+<p>Ամեն կիրակի գիշերը ես տեղադրելու եմ նոր խնդիր, որը պետք է գրել JavaScript լեզվով և որի համար ունեք ժամանակ մինչև հաջորդ շաբաթ օրը 24։00։ Խնդիրը լուծելուց հետո ուղարկում եք elizbaryan.martin@gmail.com էլ․ հասցեին: Խնդիրը պետք է լուծել 2 եղանակով։ 1-ին եղանակում չէք կարող օգտվել JavaScript-ի պատրաստի method-ներից, փորձելով ցիկլով <span class="text-primary">( for(),while )</span> և պայմանական օպերատորի <span class="text-primary">( if,else )</span> օգնությամբ լուծել, իսկ 2-րդ եղանակում կարող եք օգտվել ամեն ինրից ինչ ունի JavaScript-ը։</p>
+<p>Միավորնեի գնահատման մեթոդիկա</p>
+
+<ul>
+    <li>2 միավոր եթե լուծել եք խնդիրը 1-ին եղանակով</li>
+    <li>1 միավոր եթե լուծել եք խնդիրը 2-րդ եղանակով</li>
+    <li>1 միավոր եթե գրել եք մաքուր կոդ։ (Թե ինչ է նշանակում մաքուր կոդ դիտեք <a href="/dashboard/faq" target="_blank">այստեղ</a>)</li>
+    <li>1 միավոր եթե գրված ծրագիրը աշխատում է ամենակարճ տարբերակով </li>
+    <li></li>
+    <li>Ընդհանուր եղավ 5 միավոր։</li>
+    <li>Միավոր չէք ստանում, եթե խնդիրը լիարժեք չի աշխատում</li>
+</ul>
+
+<div class="alert alert-light-danger">Խնդիրները կսկսեմ տեղադրել 14.06.2021-ից</div>
+
+
+
+
+
+
+---------------- FAQ ----------------
+
+<p>Իմ ուսանողները արդեն տեղյակ են, որ իմ համար առաջնահերթ կոդի մաքուր տեսք ունենալն է, այսինքն մեկ տողում չունենալ 2 կատարվող գործողություն, պահպանել <span class='badge badge-primary mx-3'>tab</span> հասկացողությունը։</p>
+
+<p class="text-success font-weight-bold">Մաքուր կոդ</p>
+<div class="code">
+    <div class="w400">
+        <div>
+            <span class='main_color'>let</span> <span class='variable'>x</span> = 2;
+            <span class='main_color'>document</span>.<span class='main_color'>write</span>(<span class='variable'>x</span>);
+        </div>
+    </div>
+</div>
+
+<p class="text-danger font-weight-bold">Ոչ մաքուր կոդ</p>
+<div class="code">
+    <div class="w400">
+        <div>
+            <span class='main_color'>let</span> <span class='variable'>x</span> = 2;
+        </div>
+        <div>
+            <span class='main_color'>document</span>.<span class='main_color'>write</span>(<span class='variable'>x</span>);
+        </div>
+    </div>
+</div>
+
+<p class="text-success font-weight-bold">Մաքուր կոդ</p>
+<div class="code">
+    <div class="w400">
+        <div>
+            <span class='variable'>if</span> ( 3 > 2 ) {
+        </div>
+
+        <div class='tab-1'>
+            <span class='main_color'>console</span>.<span class='main_color'>log</span>(<span class='variable'>true</span>);
+        </div>
+
+        <div>
+            } <span class='variable'>else</span> {
+        </div>
+
+        <div class='tab-1'>
+            <span class='main_color'>console</span>.<span class='main_color'>log</span>(<span class='variable'>false</span>);
+        </div>
+
+        <div>
+            }
+        </div>
+    </div>
+</div>
+
+<p class="text-danger font-weight-bold">Ոչ մաքուր կոդ</p>
+<div class="code">
+    <div class="w400">
+        <div>
+            <span class='variable'>if</span> ( 3 > 2 ) {
+        </div>
+
+        <div>
+            <span class='main_color'>console</span>.<span class='main_color'>log</span>(<span class='variable'>true</span>);
+        </div>
+
+        <div>
+            } <span class='variable'>else</span> {
+        </div>
+
+        <div>
+            <span class='main_color'>console</span>.<span class='main_color'>log</span>(<span class='variable'>false</span>);
+        </div>
+
+        <div>
+            }
+        </div>
+    </div>
+</div>
+
+
+
+
+
+

@@ -1,0 +1,25 @@
+.blogs {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.blog{
+    width: 48%;
+    color: var(--white);
+    margin-bottom: 50px;
+}
+
+.blog img{
+    transition: 0.5s;
+}
+.blog:hover img{
+    transform: scale(1.2);
+}
+
+
+@media(max-width: 600px){
+    .blog{
+        width: 100%;
+    }
+}
