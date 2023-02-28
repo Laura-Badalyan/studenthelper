@@ -14,8 +14,8 @@ class HomeController extends Controller
 //        $json = file_get_contents('https://jsonplaceholder.typicode.com/todos');
 //        $obj = json_decode($json);
 //        dd($obj);
-        $groups = Group::getShowsWithActiveCourses();
+//        $groups = Group::getShowsWithActiveCourses();
 
-        return $this->view('index', compact(["groups"]));
+        return $this->view('index');
     }
 }

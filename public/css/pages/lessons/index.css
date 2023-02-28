@@ -11,6 +11,10 @@
     overflow: hidden;
     margin-right: 5%;
 }
+.lesson:hover{
+    transform: scale(1.1);
+    transition: 0.3s;
+}
 .lesson:nth-child(3n){
     margin-right: 0;
 }

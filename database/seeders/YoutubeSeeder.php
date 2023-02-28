@@ -15,6 +15,47 @@ class YoutubeSeeder extends Seeder
     public function run()
     {
         DB::table('youtubes')->insert([
+            "name" => "Rouben Meschian",
+            "position" => "Front End",
+            "url" => "https://www.youtube.com/@meschian",
+            "languages" => "Հայ",
+            "date" => "15 Հուն 2019",
+            "types" => "
+            HTML@css,
+            CSS@css,
+            JavaScript@front,
+            jQuery@front,
+            Node JS@back,
+            Ajax@front"
+            ,
+            "playlists" => 12,
+            "img" => "img/youtube/ruben.jpg",
+            "followers" => 44000
+        ]);
+
+        DB::table('youtubes')->insert([
+            "name" => "Web Development",
+            "position" => "Full Stack Javascript",
+            "url" => "https://www.youtube.com/@hayrapetyansami",
+            "languages" => "Հայ",
+            "date" => "20 Նոյ 2015",
+            "types" => "
+                HTML@css,
+                CSS@css,
+                CSS Flex Box@css,
+                JavaScript@front,
+                ES6@front,
+                TypeScript@front,
+                GitHub@other"
+            ,
+            "playlists" => 11,
+            "img" => "img/youtube/sami_hayrapetyan.jpg",
+            "followers" => 14800
+        ]);
+
+
+
+        DB::table('youtubes')->insert([
             "name" => "Codevolution",
             "position" => "Full Stack Javascript",
             "url" => "https://www.youtube.com/c/Codevolution/playlists",

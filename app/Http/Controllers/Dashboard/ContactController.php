@@ -27,7 +27,6 @@ class ContactController extends Controller
         $message->subject = $request->subject;
 
         $message->save();
-
         return redirect("/dashboard")->with(["success" => "Ձեր նամակը ուղարկված է։"]);
 
     }

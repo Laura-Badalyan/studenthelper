@@ -11,7 +11,7 @@ class YouTubeController extends Controller
     protected $view = "dashboard.youtube";
 
     public function index(){
-        $youtube = Youtube::orderBy("followers","DESC")->get();
+        $youtube = Youtube::orderBy("followers","ASC")->get();
 
         return $this->view("index", compact(["youtube"]));
     }

@@ -16,12 +16,9 @@ class DatabaseSeeder extends Seeder
         $this->call([
             BlogsSeeder::class,
             BooksSeeder::class,
-            CoursesSeeder::class,
             DiscussionsMessagesSeeder::class,
             DiscussionsSeeder::class,
             FaqsSeeder::class,
-            GroupsSeeder::class,
-            GroupsUsersSeeder::class,
             MessagesSeeder::class,
             NewsSeeder::class,
             QuestionsSeeder::class,
